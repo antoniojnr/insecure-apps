@@ -22,10 +22,10 @@ npm install
 ### 2. Configurar Variáveis de Ambiente
 
 ```bash
-cp .env.example .env.local
+cp .env.example .env
 ```
 
-Edite o arquivo `.env.local` e configure:
+Edite o arquivo `.env` e configure:
 
 - `JWT_SECRET`: Uma chave secreta forte (mude em produção!)
 - `PORT`: Porta do servidor (padrão: 3000)
