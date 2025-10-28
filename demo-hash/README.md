@@ -246,4 +246,12 @@ Importe as requisições listadas na seção de endpoints ou crie uma coleção 
 - Adicionar logs estruturados
 - Criar documentação com Swagger/OpenAPI
 
-## 👨‍💻 Autor
+## Atividades
+
+1. Suponha que você obteve acesso ao banco de dados da aplicação e consegue ler os nomes de usuário e hashes de senha. Como você exploraria essa vulnerabilidade?
+
+2. Identifique o tipo de hash usado na aplicação. Usando os hashes obtidos do banco de dados, implemente um script que tenta descobrir as senhas originais testando uma lista de palavras comuns (dicionário). Registre quantas senhas foram descobertas e qual foi o tempo necessário. Compare com o tempo que levaria se a aplicação usasse um algoritmo apropriado, como bcrypt.
+
+3. Pesquise e use uma ferramenta online ou API de rainbow tables para descobrir senhas de usuários a partir de seus hashes. Documente quais hashes foram encontrados instantaneamente sem qualquer processamento computacional.
+
+4. Explique e demonstre como o hash usado na aplicação sofre de vulnerabilidades conhecidas (colisões, preimage attacks). Pesquise exemplos reais de colisões documentadas e mostre como um atacante poderia criar senhas diferentes com o mesmo hash ou injetar dados maliciosos aproveitando essas fraquezas.
